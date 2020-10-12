@@ -4,9 +4,6 @@
 // Для добавления стилей, используй CSS - классы valid и invalid.
 
 
-inputEl.addEventListener('blur', onInputBlur);
-
-
 let inputVal = document.getElementById("validation-input");
 
 let totalLenght = inputVal.getAttribute("data-length");
